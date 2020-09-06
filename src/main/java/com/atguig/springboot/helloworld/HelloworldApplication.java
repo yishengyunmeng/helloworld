@@ -13,6 +13,7 @@ public class HelloworldApplication {
         ApplicationContext ioc = SpringApplication.run(HelloworldApplication.class, args);
         User user = (User)ioc.getBean("user");
         System.out.println(user);
+        System.out.println("222222222");
     }
 
 }
