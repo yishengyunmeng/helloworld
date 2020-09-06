@@ -14,6 +14,7 @@ public class HelloworldApplication {
         User user = (User)ioc.getBean("user");
         System.out.println(user);
         System.out.println("222222222");
+        System.out.println("11111111111");
     }
 
 }
